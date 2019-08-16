@@ -1,0 +1,8 @@
+{  
+   "command":"player",
+   "parameters":{  
+      "player":{  
+         "deck_0":["Movie.2.mp4", 0]
+      }
+   }
+}

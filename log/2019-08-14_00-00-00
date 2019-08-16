@@ -1,0 +1,26 @@
+{
+    "heartbeat": {
+        "fps": 60.0,
+        "gpu_mem_used": 495.01971435546875,
+        "total_gpu_mem": 16000.0
+    },
+    "levelname": "WARNING",
+    "machine": "CHOY",
+    "message": "WARNING",
+    "name": "/Toolkit/Monitor/log",
+    "role": "activation-00",
+    "timestamp": "19-08-14 21:47:37"
+}
+{
+    "heartbeat": {
+        "fps": 60.0,
+        "gpu_mem_used": 495.01971435546875,
+        "total_gpu_mem": 16000.0
+    },
+    "levelname": "WARNING",
+    "machine": "CHOY",
+    "message": "WARNING",
+    "name": "/Toolkit/Monitor/log",
+    "role": "activation-00",
+    "timestamp": "19-08-14 21:47:48"
+}

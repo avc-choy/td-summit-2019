@@ -1,0 +1,10 @@
+{  
+   "command":"player",
+   "parameters":{  
+      "player":{  
+         "deck_0":["Movie.3.mp4", 0],
+         "deck_1":["Movie.4.mp4", 1],
+         "deck_4":["Movie.1.mp4", 2]
+      }
+   }
+}

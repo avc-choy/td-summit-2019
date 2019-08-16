@@ -1,0 +1,132 @@
+{ 	
+	"environments" : {
+		"production" : {
+			"controller_ip" : "10.0.01",
+			"controller_port" : "10000",
+			"user" : "",
+			"password" : ""
+		},
+		"development" : {
+			"controller_ip" : "127.0.0.1",
+			"controller_port" : "7000",
+			"user" : "",
+			"password" : ""			
+		}
+	},
+
+	"hosts" : {
+		"default" : {
+			"asset_path" : "C:/Program Files/Derivative/TouchDesigner099/Samples/Map/Nature"},		
+		"CHOY" : {
+			"asset_path" : "C:/Program Files/Derivative/TouchDesigner099/Samples/Map/Nature"}
+	},
+
+	"activations" : [
+		{	
+			"name": "activation-00",
+			"role": "server",
+			"realtime": true,
+			"description" : "td-summit-activation-00",
+			"screen" : "activation-00",
+			"mode" : "player",
+			"resolution": [1920,1080],
+			"tox" : [   ["Toolkit.tox", -800, 0],
+						["Admin.tox", 200, 200],
+						["Communication.tox", 0, 0],
+						["Player.tox", 200, 0],					
+	                    ["Output.tox", 400, 0]
+	        		],
+			"window" : { "aot" : 1,
+						 "size" : 0,
+						 "borders": 0,
+				 		 "cursor" : 1, 
+						 "hfl" : 0,
+						 "vsync" : 1,
+						 "draw" : 1,
+						 "monitor" : 0,
+						 "xoffset" : 0,
+						 "yoffset" : 0
+						},
+   			"player":{  
+				"deck_0":{  
+					"moviefilein" : {"prereadframes": 60,
+									 "frametimeout": 30,
+									 "maxdecodecpus": 8,
+									 "highperfread": true,
+									 "highperfreadfactor": 4},
+					"fit": {"fit": "fitoutside", 
+							"resolutionw": 960, 
+							"resolutionh":540},
+					"deck": 0,
+					"pixel_map": [0, 0],
+					"screen": "screen_0"
+  					},
+				"deck_1":{  
+					"moviefilein" : {"prereadframes": 60,
+									 "frametimeout": 30,
+									 "maxdecodecpus": 8,
+									 "highperfread": true,
+									 "highperfreadfactor": 4},
+					"fit": {"fit": "fitoutside", 
+							"resolutionw": 480, 
+							"resolutionh":270},
+					"deck": 1,
+					"pixel_map": [960, 0],
+					"screen": "screen_0"
+  					},
+				"deck_2":{  
+					"moviefilein" : {"prereadframes": 60,
+									 "frametimeout": 30,
+									 "maxdecodecpus": 8,
+									 "highperfread": true,
+									 "highperfreadfactor": 4},
+					"fit": {"fit": "fitbest", 
+							"resolutionw": 480, 
+							"resolutionh":270},
+					"deck": 2,
+					"pixel_map": [0, 540],
+					"screen": "screen_0"
+  					},
+				"deck_3":{  
+					"moviefilein" : {"prereadframes": 60,
+									 "frametimeout": 30,
+									 "maxdecodecpus": 8,
+									 "highperfread": true,
+									 "highperfreadfactor": 4},
+					"fit": {"fit": "fitbest", 
+							"resolutionw": 960, 
+							"resolutionh":540},
+					"deck": 3,
+					"pixel_map": [540, 540],
+					"screen": "screen_0"
+  					}
+  				}
+		},
+		{
+			"name": "activation-01",
+			"role" : "server",
+			"realtime": true,
+			"description" : "td-summit-activation-01",
+			"screen" : "activation-01",
+			"mode" : "player",
+			"resolution": [1920,1080],
+			"tox" : [   ["Toolkit.tox", -800, 0],
+						["Admin.tox", 200, 200],
+						["Communication.tox", 0, 0],
+						["Player.tox", 200, 0],					
+	                    ["Output.tox", 400, 0]
+	        		],
+			"window" : { "aot" : 1,
+						 "size" : 0,
+						 "borders": 0,
+				 		 "cursor" : 1, 
+						 "hfl" : 0,
+						 "vsync" : 1,
+						 "draw" : 1,
+						 "monitor" : 1,
+						 "xoffset" : 0,
+						 "yoffset" : 0
+						}
+		}
+	]
+}
