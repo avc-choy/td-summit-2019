@@ -16,6 +16,8 @@
 
 	"hosts" : {
 		"default" : {
+			"asset_path" : "C:/Program Files/Derivative/TouchDesigner099/Samples/Map/Nature"},
+		"AVC-CHOY" : {
 			"asset_path" : "C:/Program Files/Derivative/TouchDesigner099/Samples/Map/Nature"},		
 		"CHOY" : {
 			"asset_path" : "C:/Program Files/Derivative/TouchDesigner099/Samples/Map/Nature"}
@@ -108,12 +110,11 @@
 			"realtime": true,
 			"description" : "td-summit-activation-01",
 			"screen" : "activation-01",
-			"mode" : "player",
+			"mode" : "messager",
 			"resolution": [1920,1080],
 			"tox" : [   ["Toolkit.tox", -800, 0],
-						["Admin.tox", 200, 200],
 						["Communication.tox", 0, 0],
-						["Player.tox", 200, 0],					
+						["Messager.tox", 200, 0],					
 	                    ["Output.tox", 400, 0]
 	        		],
 			"window" : { "aot" : 1,
@@ -123,7 +124,7 @@
 						 "hfl" : 0,
 						 "vsync" : 1,
 						 "draw" : 1,
-						 "monitor" : 1,
+						 "monitor" : 0,
 						 "xoffset" : 0,
 						 "yoffset" : 0
 						}

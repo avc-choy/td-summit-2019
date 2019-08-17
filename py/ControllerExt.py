@@ -19,7 +19,7 @@ class ControllerExt():
 
 		''' properties '''	
 		self.ownerComp.unstore('*')
-		storedController = [{'name':'Commands', 'default':  {'player': self.routeMessage}}]
+		storedController = [{'name':'Commands', 'default':  {'show': self.routeMessage}}]
 		self.ControllerStored = StorageManager(self, ownerComp, storedController)
 
 

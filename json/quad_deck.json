@@ -1,5 +1,5 @@
 {  
-   "command":"player",
+   "command":"show",
    "parameters":{  
       "player":{  
          "deck_0":["Movie.3.mp4", 0],

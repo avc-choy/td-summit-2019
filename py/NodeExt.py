@@ -27,11 +27,8 @@ class NodeExt:
 		hostname =socket.gethostname()
 		self.Node['hostname'] = hostname
 		self.Node['ip'] = socket.gethostbyname(socket.gethostname())
-		self.Node['host'] = self.Hosts.get(hostname, 'default')
+		self.Node['host'] = self.Hosts.get(hostname, self.Hosts.get('default'))
 		logger.info('Node Configuration: {}'.format(hostname.upper()))
-
-		# initialize logger
-		op.Toolkit.par.reinitextensions.pulse()
 
 		logger.info('Initialized...')
 
@@ -74,6 +71,7 @@ class NodeExt:
 		
 		try:
 			self.loadNode()
+			run("args[0]()", self.initNode, fromOP=self.ownerComp, delayFrames=me.time.rate)
 		except Exception as e:
 			logger.critical(traceback.format_exc())
 
@@ -98,3 +96,11 @@ class NodeExt:
 
 		# handle realtime
 		project.realTime = self.Node.get('realtime', True)
+
+
+	def initNode(self):
+		''' Manually initialize components '''
+
+		# search for INIT tag and reinit extensions
+		initComps = self.ownerComp.findChildren(tags=['INIT'])
+		[comp.par.reinitextensions.pulse() for comp in initComps]

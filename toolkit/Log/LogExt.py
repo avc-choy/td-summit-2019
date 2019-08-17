@@ -64,8 +64,8 @@ class LogExt:
 		}
 		
 		# configure logger
-		logging.config.dictConfig(LOGGERS)
-		# run("args[0](args[1])", logging.config.dictConfig, LOGGERS, fromOP=self.ownerComp, delayFrames=me.time.rate)
+		# logging.config.dictConfig(LOGGERS)
+		run("args[0](args[1])", logging.config.dictConfig, LOGGERS, fromOP=self.ownerComp, delayFrames=me.time.rate)
 		
 		logger.info('Initialized...')
 

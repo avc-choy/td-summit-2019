@@ -1,8 +1,8 @@
 {  
    "command":"show",
    "parameters":{  
-      "player":{  
-         "deck_0":["Movie.2.mp4", 0]
+      "messager":{  
+         "message": 1
       }
    }
 }

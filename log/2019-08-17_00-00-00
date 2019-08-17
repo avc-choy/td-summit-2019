@@ -1,0 +1,130 @@
+{
+    "heartbeat": {
+        "fps": 9.0,
+        "gpu_mem_used": 845.261474609375,
+        "total_gpu_mem": 3000.0
+    },
+    "levelname": "WARNING",
+    "machine": "AVC-CHOY",
+    "message": "Controller DISCONNECTED from /Node/Communication/Controller/tcpip_controller - None:None",
+    "name": "/Node/Communication/Controller/ControllerExt",
+    "role": "activation-00",
+    "timestamp": "19-08-17 00:19:03"
+}
+{
+    "heartbeat": {
+        "fps": 4.0,
+        "gpu_mem_used": 843.363037109375,
+        "total_gpu_mem": 3000.0
+    },
+    "levelname": "WARNING",
+    "machine": "AVC-CHOY",
+    "message": "Controller CONNECTED to /Node/Communication/Controller/tcpip_controller - 127.0.0.1:7000",
+    "name": "/Node/Communication/Controller/ControllerExt",
+    "role": "activation-00",
+    "timestamp": "19-08-17 00:19:03"
+}
+{
+    "heartbeat": {
+        "fps": 49.0,
+        "gpu_mem_used": 643.8688354492188,
+        "total_gpu_mem": 3000.0
+    },
+    "levelname": "WARNING",
+    "machine": "AVC-CHOY",
+    "message": "Controller DISCONNECTED from /Node/Communication/Controller/tcpip_controller - 127.0.0.1:7000",
+    "name": "/Node/Communication/Controller/ControllerExt",
+    "role": "activation-00",
+    "timestamp": "19-08-17 00:19:04"
+}
+{
+    "heartbeat": {
+        "fps": 52.0,
+        "gpu_mem_used": 642.5504760742188,
+        "total_gpu_mem": 3000.0
+    },
+    "levelname": "WARNING",
+    "machine": "AVC-CHOY",
+    "message": "Controller CONNECTED to /Node/Communication/Controller/tcpip_controller - 127.0.0.1:7000",
+    "name": "/Node/Communication/Controller/ControllerExt",
+    "role": "activation-00",
+    "timestamp": "19-08-17 00:19:04"
+}
+{
+    "heartbeat": {
+        "fps": 10.0,
+        "gpu_mem_used": 845.261474609375,
+        "total_gpu_mem": 3000.0
+    },
+    "levelname": "WARNING",
+    "machine": "AVC-CHOY",
+    "message": "Controller DISCONNECTED from /Node/Communication/Controller/tcpip_controller - None:None",
+    "name": "/Node/Communication/Controller/ControllerExt",
+    "role": "activation-00",
+    "timestamp": "19-08-17 00:19:44"
+}
+{
+    "heartbeat": {
+        "fps": 4.0,
+        "gpu_mem_used": 843.363037109375,
+        "total_gpu_mem": 3000.0
+    },
+    "levelname": "WARNING",
+    "machine": "AVC-CHOY",
+    "message": "Controller CONNECTED to /Node/Communication/Controller/tcpip_controller - 127.0.0.1:7000",
+    "name": "/Node/Communication/Controller/ControllerExt",
+    "role": "activation-00",
+    "timestamp": "19-08-17 00:19:44"
+}
+{
+    "heartbeat": {
+        "fps": 48.0,
+        "gpu_mem_used": 652.798583984375,
+        "total_gpu_mem": 3000.0
+    },
+    "levelname": "WARNING",
+    "machine": "AVC-CHOY",
+    "message": "Controller DISCONNECTED from /Node/Communication/Controller/tcpip_controller - 127.0.0.1:7000",
+    "name": "/Node/Communication/Controller/ControllerExt",
+    "role": "activation-00",
+    "timestamp": "19-08-17 00:19:45"
+}
+{
+    "heartbeat": {
+        "fps": 50.0,
+        "gpu_mem_used": 643.4293823242188,
+        "total_gpu_mem": 3000.0
+    },
+    "levelname": "WARNING",
+    "machine": "AVC-CHOY",
+    "message": "Controller CONNECTED to /Node/Communication/Controller/tcpip_controller - 127.0.0.1:7000",
+    "name": "/Node/Communication/Controller/ControllerExt",
+    "role": "activation-00",
+    "timestamp": "19-08-17 00:19:45"
+}
+{
+    "heartbeat": {
+        "fps": 58.0,
+        "gpu_mem_used": 225.69784545898438,
+        "total_gpu_mem": 3000.0
+    },
+    "levelname": "ERROR",
+    "machine": "AVC-CHOY",
+    "message": "Invalid JSON or parsing exception: Traceback (most recent call last):\n  File \"/Node/Communication/Controller/ControllerExt\", line 44, in OnReceive\n  File \"/Node/Communication/Controller/ControllerExt\", line 92, in routeMessage\ntd.Error: File \"</Node/Communication/Controller/tcpip_controller:args[0].Run(args[1])>\", line 1\n  File \"/Node/Messager/MessagerExt\", line 21, in Run\n  File \"/Node/Messager/MessagerExt\", line 27, in switchMessage\ntd.Error: Cannot cast value to a numeric object.  Set .expr member instead. Value:{'messager': {'message': 0}} Type:<class 'dict'>.\nResults of run operation resulted in exception. Value:<module 'td' (built-in)> Type:<class 'module'>.\n",
+    "name": "/Node/Communication/Controller/ControllerExt",
+    "role": "activation-01",
+    "timestamp": "19-08-17 00:35:08"
+}
+{
+    "heartbeat": {
+        "fps": 60.0,
+        "gpu_mem_used": 229.66514587402344,
+        "total_gpu_mem": 3000.0
+    },
+    "levelname": "ERROR",
+    "machine": "AVC-CHOY",
+    "message": "Invalid JSON or parsing exception: Traceback (most recent call last):\n  File \"/Node/Communication/Controller/ControllerExt\", line 44, in OnReceive\n  File \"/Node/Communication/Controller/ControllerExt\", line 92, in routeMessage\ntd.Error: File \"</Node/Communication/Controller/tcpip_controller:args[0].Run(args[1])>\", line 1\n  File \"/Node/Messager/MessagerExt\", line 22, in Run\n  File \"/Node/Messager/MessagerExt\", line 28, in switchMessage\ntd.Error: Cannot cast value to a numeric object.  Set .expr member instead. Value:{'messager': {'message': 0}} Type:<class 'dict'>.\nResults of run operation resulted in exception. Value:<module 'td' (built-in)> Type:<class 'module'>.\n",
+    "name": "/Node/Communication/Controller/ControllerExt",
+    "role": "activation-01",
+    "timestamp": "19-08-17 00:35:32"
+}
