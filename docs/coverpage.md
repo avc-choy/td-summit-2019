@@ -1,6 +1,6 @@
 # loom
 
-> AV&C Pipeline Shell for TouchDesigner [docsify.js](https://docsify.js.org)
+> AV&C Pipeline Shell for TouchDesigner
 
 - Externalization
 - Standardization
